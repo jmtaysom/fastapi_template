@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  fastapi:
+    container_name: fastapi
+    image:  fastapi_template
+    ports:
+      - "8000:80"
+    volumes:
+      - ./app/:/app/app/:rw
+
+    stdin_open: true
+    tty: true

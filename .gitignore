@@ -1,0 +1,7 @@
+htmlcov/
+.coverage*
+logs/
+*.log
+.eggs/
+app.egg-info/
+build/
